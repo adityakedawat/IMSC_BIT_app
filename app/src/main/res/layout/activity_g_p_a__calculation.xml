@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".GPA_Calculation">
+    tools:context=".GPA_Calculation"
+    >
 
     <Spinner
         android:id="@+id/spinner"
@@ -14,18 +15,19 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-        android:background="@android:color/white"
-        android:spinnerMode="dropdown"
-        style="@android:style/Widget.Spinner.DropDown"
         android:dropDownSelector="@drawable/button_border"
+        android:entries="@array/sems"
         android:popupBackground="@drawable/rounded_border"
-        android:prompt="@string/select_no_of_semester" />
+        android:prompt="@string/select_no_of_semester"
+        android:spinnerMode="dropdown"
+        android:theme="@style/mySpinnerItemStyle" />
 
     <EditText
         android:id="@+id/cgsem1"
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
         android:background="@drawable/rounded_border"
         android:ems="10"
         android:hint="@string/sem_1"
@@ -40,6 +42,7 @@
         android:layout_height="41dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
         android:visibility="invisible"
         android:layout_marginTop="20dp"
         android:hint="@string/sem_2"
@@ -49,6 +52,7 @@
     <EditText
         android:id="@+id/cgsem3"
         android:layout_width="match_parent"
+        android:textColor="@android:color/black"
         android:layout_height="41dp"
         android:ems="10"
         android:hint="@string/sem_3"
@@ -63,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:ems="10"
+        android:textColor="@android:color/black"
         android:hint="@string/sem_4"
         android:inputType="numberDecimal"
         android:visibility="invisible"
@@ -74,6 +79,7 @@
     <EditText
         android:id="@+id/cgsem5"
         android:layout_width="match_parent"
+        android:textColor="@android:color/black"
         android:layout_height="41dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_border"
@@ -89,6 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="41dp"
         android:layout_marginTop="20dp"
+        android:textColor="@android:color/black"
         android:background="@drawable/rounded_border"
         android:ems="10"
         android:hint="@string/sem_6"
@@ -100,8 +107,9 @@
     <TextView
         android:id="@+id/cgpa"
         android:layout_width="match_parent"
-        android:layout_height="41dp"
+        android:layout_height="wrap_content"
         android:textSize="24sp"
+        android:textColor="@android:color/black"
         android:layout_marginTop="20dp"
         android:background="@drawable/rounded_border"
         android:visibility="invisible"
@@ -113,6 +121,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/calculate"
+        android:textColor="@android:color/black"
         android:visibility="invisible"
         android:background="@drawable/button_border"
         android:layout_marginBottom="15dp" />

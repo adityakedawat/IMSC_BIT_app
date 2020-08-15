@@ -1,12 +1,11 @@
 package com.example.imscbit
 
-import androidx.appcompat.app.AppCompatActivity
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_g_p_a__calculation.*
-
-import java.lang.NumberFormatException
 import java.math.BigDecimal
 import java.math.RoundingMode
 
@@ -98,6 +97,7 @@ class GPA_Calculation : AppCompatActivity(), AdapterView.OnItemSelectedListener 
     }
 
     override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+
 
         val sem1: EditText =findViewById<EditText>(R.id.cgsem1)
         val sem2: EditText =findViewById<EditText>(R.id.cgsem2)
