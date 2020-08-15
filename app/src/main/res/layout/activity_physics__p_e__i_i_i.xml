@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/pe3_sub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nonconventional_sources_of_energy" />
+    <Button
+        android:id="@+id/pe3_sub2"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction_to_nuclear_and_particle_physics" />
+    <Button
+        android:id="@+id/pe3_sub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nuclear_hazard_and_waste_managements" />
+
+</LinearLayout>

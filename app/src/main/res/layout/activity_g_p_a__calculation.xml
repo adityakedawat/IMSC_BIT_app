@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GPA_Calculation">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+
+        android:prompt="@string/select_no_of_semester" />
+
+    <EditText
+        android:id="@+id/cgsem1"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint="@string/sem_1"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:text="@string/sem_1"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/cgsem2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:hint="@string/sem_2"
+        android:background="@drawable/rounded_border"
+        android:text="@string/sem_2"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/cgsem3"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="@string/sem_3"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:text="@string/sem_3"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/cgsem4"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="@string/sem_4"
+        android:inputType="numberDecimal"
+        android:visibility="invisible"
+        android:background="@drawable/rounded_border"
+        android:layout_marginTop="20dp"
+        android:text="@string/sem_4"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/cgsem5"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint="@string/sem_5"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:text="@string/sem_5"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/cgsem6"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint="@string/sem_6"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:text="@string/sem_6"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/cgpa"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/gpacalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/calculate"
+        android:visibility="invisible"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp" />
+</LinearLayout>

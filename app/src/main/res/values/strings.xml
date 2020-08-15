@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">IMSC BIT</string>
+    <string name="course_syllabus">Course Syllabus</string>
+    <string name="title_activity_sem_physics">Sem_physics</string>
+    <string name="sem_1">Sem 1</string>
+    <string name="sem_2">Sem 2</string>
+    <string name="sem_3">Sem 3</string>
+    <string name="sem_4">Sem 4</string>
+    <string name="sem_5">Sem 5</string>
+    <string name="sem_6">Sem 6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mechanics">Mechanics</string>
+    <string name="electricity_magnetism"><![CDATA[Electricity & Magnetism]]></string>
+    <string name="buisness_communications">Business Communications</string>
+    <string name="chemistry_1">Chemistry I</string>
+    <string name="mathematical_physics_1">Mathematical Physics-I</string>
+    <string name="waves_and_optics">Waves and Optics</string>
+    <string name="mathematics_iii">Mathematics III</string>
+    <string name="environmental_science">Environmental Science</string>
+    <string name="electives">Electives</string>
+    <string name="programming_for_problem_solving_basics_of_electrical_engineering_basics_of_electronics_communication_engg_basics_of_mechanical_engg"><![CDATA[Programming for problem solving / Basics of Electrical Engineering / Basics of Electronics & Communication Engg. / Basics of Mechanical Engg]]></string>
+    <string name="thermal_physics">Thermal Physics</string>
+    <string name="digital_systems_and_applications">Digital Systems and Applications</string>
+    <string name="classical_dynamics">Classical Dynamics</string>
+    <string name="chemistry_ii">Chemistry II</string>
+    <string name="open_elective_i">Open Elective-I</string>
+    <string name="mathematical_physics_ii">Mathematical Physics II</string>
+    <string name="elements_of_modern_physics">Elements of Modern Physics</string>
+    <string name="analog_systems_and_applications">Analog Systems and Applications</string>
+    <string name="mathematics_iv">Mathematics IV</string>
+    <string name="quantum_mechanics_and_applications">Quantum Mechanics and Applications</string>
+    <string name="solid_state_physics">Solid State Physics</string>
+    <string name="probability_and_statistics">Probability and Statistics</string>
+    <string name="pe_i">PE-I</string>
+    <string name="pe_ii">PE-II</string>
+    <string name="electromagnetic_theory">Electromagnetic Theory</string>
+    <string name="statistical_mechanics">Statistical Mechanics</string>
+    <string name="pe_iii">PE -III</string>
+    <string name="pe_iv">PE -IV</string>
+    <string name="module_1">Module 1:</string>
+    <string name="module_2">Module 2:</string>
+    <string name="module_3">Module 3:</string>
+    <string name="module_4">Module 4:</string>
+    <string name="module_5">Module 5:</string>
+    <string name="reference_books">Reference Books:</string>
+    <string name="additional_reference_books">Additional Reference Books:</string>
+    <string name="advanced_mathematical_physics">ADVANCED MATHEMATICAL PHYSICS</string>
+    <string name="nano_materials_and_applications">Nano Materials and Applications</string>
+    <string name="computational_physics">Computational Physics</string>
+    <string name="materials_science_and_nanotechnology">Materials Science and Nanotechnology</string>
+    <string name="experimental_techniques">EXPERIMENTAL TECHNIQUES</string>
+    <string name="nonconventional_sources_of_energy">Nonconventional Sources of Energy</string>
+    <string name="introduction_to_nuclear_and_particle_physics">Introduction to Nuclear and Particle Physics</string>
+    <string name="nuclear_hazard_and_waste_managements">Nuclear Hazard and Waste Managements</string>
+    <string name="atmospheric_physics">Atmospheric Physics</string>
+    <string name="advanced_experimental_techniques">Advanced Experimental Techniques</string>
+    <string name="programming_for_problem_solving">Programming for problem solving</string>
+    <string name="basics_of_electrical_engineering">Basics of Electrical Engineering</string>
+    <string name="basics_of_electronics_and_communication_engg">Basics of Electronics and Communication Engg.</string>
+    <string name="basics_of_mechanical_engg">Basics of Mechanical Engg</string>
+    <string name="gpa_calculator">GPA Calculator</string>
+    <string name="select_no_of_semester" />
+    <string name="calculate">Calculate</string>
+    <string name="cgpa">CGPA:</string>
+
+    <string-array name="sems">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+    </string-array>
+</resources>
