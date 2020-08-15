@@ -63,6 +63,14 @@
     <string name="select_no_of_semester" />
     <string name="calculate">Calculate</string>
     <string name="cgpa">CGPA:</string>
+    <string name="attendance_calculator">Attendance Calculator</string>
+    <string name="about_app">About App</string>
+    <string name="class_attended">Class Attended</string>
+    <string name="total_classes">Total Classes</string>
+    <string name="imsc_bit">IMSC BIT</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="developed_by">Developed By: Aditya Khandelwal (BE/10188/17)</string>
+    <string name="compatible_with">Compatible with min. SDK version 19</string>
 
     <string-array name="sems">
         <item>1</item>

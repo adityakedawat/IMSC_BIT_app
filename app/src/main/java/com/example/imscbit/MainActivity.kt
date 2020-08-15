@@ -20,5 +20,13 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("gpa",1)
             startActivity(intent)
         }
+        attendancecalculator.setOnClickListener {
+            val attendanceintent=Intent(this, Attendance_Calculator::class.java)
+            startActivity(attendanceintent)
+        }
+        about_us_button.setOnClickListener {
+            val aboutusintent=Intent(this, Aboutus::class.java)
+            startActivity(aboutusintent)
+        }
     }
 }

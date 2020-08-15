@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Attendance_Calculator">
+
+
+    <EditText
+        android:id="@+id/attended"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint="@string/class_attended"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/class_attended" />
+
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:hint="@string/total_classes"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/total_classes" />
+
+
+
+    <TextView
+        android:id="@+id/attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/rattendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:id="@+id/rattendance2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_border"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/attendacecalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/calculate"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp" />
+</LinearLayout>

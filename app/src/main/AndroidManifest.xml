@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/imsc_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GPA_Calculation"></activity>
+        <activity android:name=".Aboutus" />
+        <activity android:name=".Attendance_Calculator" />
+        <activity android:name=".GPA_Calculation" />
         <activity android:name=".Physics_PPS" />
         <activity android:name=".Physics_PE_IV" />
         <activity android:name=".Physics_PE_III" />

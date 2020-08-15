@@ -14,7 +14,11 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="10dp"
-
+        android:background="@android:color/white"
+        android:spinnerMode="dropdown"
+        style="@android:style/Widget.Spinner.DropDown"
+        android:dropDownSelector="@drawable/button_border"
+        android:popupBackground="@drawable/rounded_border"
         android:prompt="@string/select_no_of_semester" />
 
     <EditText
