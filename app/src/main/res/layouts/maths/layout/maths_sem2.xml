@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    <Button
+        android:id="@+id/msem2_sub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_border"
+        android:text="@string/calculus_ii" />
+    <Button
+        android:id="@+id/msem2_sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_border"
+        android:text="@string/ordinary_differential_equations" />
+
+    <Button
+        android:id="@+id/msem2_sub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_border"
+        android:text="@string/complex_analysis" />
+
+
+    <Button
+        android:id="@+id/msem2_sub4"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_border"
+        android:text="@string/environmental_science" />
+    <Button
+        android:id="@+id/msem2_sub5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_border"
+        android:text="@string/physics_i" />
+    <Button
+        android:id="@+id/msem2_elective1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_border"
+        android:text="@string/programming_for_problem_solving" />
+
+</LinearLayout>

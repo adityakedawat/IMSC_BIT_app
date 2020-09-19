@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.example.imscbit"
+        applicationId "com.aditya.imscbit"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -20,6 +20,13 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src/main/res', 'src/main/res/maths', 'src/main/res/chemistry', 'src/main/res/layouts/maths', 'src/main/res/layouts/chemistry', 'src/main/res/physics'
+            }
         }
     }
 }

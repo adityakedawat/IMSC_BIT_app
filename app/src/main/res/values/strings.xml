@@ -55,7 +55,7 @@
     <string name="nuclear_hazard_and_waste_managements">Nuclear Hazard and Waste Managements</string>
     <string name="atmospheric_physics">Atmospheric Physics</string>
     <string name="advanced_experimental_techniques">Advanced Experimental Techniques</string>
-    <string name="programming_for_problem_solving">Programming for problem solving</string>
+
     <string name="basics_of_electrical_engineering">Basics of Electrical Engineering</string>
     <string name="basics_of_electronics_and_communication_engg">Basics of Electronics and Communication Engg.</string>
     <string name="basics_of_mechanical_engg">Basics of Mechanical Engg</string>
@@ -72,6 +72,34 @@
     <string name="developed_by">Developed By: Aditya Khandelwal (BE/10188/17)</string>
     <string name="compatible_with">Compatible with min. SDK version 19</string>
     <string name="email_adityakedawat_yahoo_com">Email: adityakedawat@yahoo.com</string>
+    <string name="imsc_mathematics">IMSC Mathematics</string>
+    <string name="imsc_chemistry">IMSC Chemistry</string>
+    <string name="imsc_physics">IMSC PHYSICS</string>
+    <string name="calculus_i">Calculus-I</string>
+    <string name="real_analysis">Real Analysis</string>
+    <string name="matrix_theory">Matrix Theory</string>
+    <string name="calculus_ii">Calculus-II</string>
+    <string name="ordinary_differential_equations">Ordinary Differential Equations</string>
+    <string name="complex_analysis">Complex Analysis</string>
+    <string name="physics_i">Physics I</string>
+    <string name="programming_for_problem_solving">Programming for problem solving</string>
+    <string name="partial_differential_equations">Partial Differential Equations</string>
+    <string name="modern_algebra">Modern Algebra</string>
+    <string name="integral_transforms_and_its_applications">Integral Transforms and its Applications</string>
+    <string name="data_structure">Data Structure</string>
+    <string name="physics_ii">Physics –II</string>
+    <string name="discrete_mathematics">Discrete Mathematics</string>
+    <string name="linear_algebra">Linear Algebra</string>
+    <string name="integral_equations_and_green_s_function">Integral Equations and Green’s Function</string>
+    <string name="object_oriented_programming_and_design_pattern">Object Oriented Programming and Design Pattern</string>
+
+    <string name="fuzzy_logic">Fuzzy Logic</string>
+    <string name="design_and_analysis_of_algorithm">Design and Analysis of Algorithm</string>
+    <string name="formal_languages_automata_theory"><![CDATA[Formal Languages & Automata Theory]]></string>
+    <string name="optimization_techniques">Optimization Techniques</string>
+    <string name="numerical_techniques">Numerical Techniques</string>
+    <string name="database_management_system">Database Management System</string>
+    <string name="operating_systems">Operating Systems</string>
 
     <string-array name="sems">
         <item>1</item>
