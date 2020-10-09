@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.aditya.imscbit.R
+import com.aditya.imscbit.physics.Physics_PE_I
 import com.aditya.imscbit.physics.Syllabus
 val modules51= arrayOf("Axioms of probability, Probability space, Conditional probability, Independent events, Bayes' theorem,\n" +
         "discrete and continuous random variables, Cumulative distribution function, probability mass and density\n" +
@@ -50,22 +51,63 @@ val refbooks52= arrayOf(
             "private Limited.",
     "1. H.-J. Zimmermann, Fuzzy Set Theory and its Application, Kluwer Academic Publishers.\n" +
             "2. John Yen and Reza Langari, Fuzzy Logic: Intelligence, Control and information, Pearson Education.")
-val modules53= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+val modules53= arrayOf("Algorithms and Complexity\n" +
+        "Introduction, Algorithm Complexity and various cases using Insertion Sort, Asymptotic\n" +
+        "Notations, Time complexity of Recursive Algorithm, Solving Recurrences using Iterative,\n" +
+        "Recursion Tree and Master Theorem. \n",
+    "Divide and Conquer\n" +
+            "Discussion of basic approach using Binary Search, Merge Sort , Quick Sort , Selection in\n" +
+            "Expected linear time, Maximum Subarray , Matrix Multiplication , Introduction of Transform\n" +
+            "and Conquer and AVL Tree . \n",
+    "Dynamic Programming\n" +
+            "Introduction and Approach, Rod Cutting, LCS, Optimal BST, Transitive closure and All-pair\n" +
+            "Shortest Path, Travelling Salesperson Problem. \n",
+    "Greedy and other Design Approaches\n" +
+            "Introduction to greedy using fractional knapsack, Huffman Code, Minimum Spanning Tree –\n" +
+            "Prim and Kruskal, Single Source Shortest Path Dijkstra’s and Bellman-Ford, Introduction to\n" +
+            "Backtracking using N-Queens problem, Introduction to Branch and Bound using Assignment\n" +
+            "Problem or TSP.\n",
+    "NP Completeness and Other Advanced Topics\n" +
+            "Non-deterministic algorithms – searching and sorting, Class P and NP, Decision and\n" +
+            "Optimization problem, Reduction and NPC and NPH, NP Completeness proof for: SAT, MaxClique, Vertex Cover, Introduction to Randomized Algorithms, Introduction to Approximation\n" +
+            "Algorithms. \n")
 val refbooks53= arrayOf(
-    "",
-    "")
-val modules54= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+    "1. Cormen Thomas H. et al., Introduction to Algorithms. 3rd Edition, PHI Learning, latest\n" +
+            "edition.\n",
+    "2. Horowitz E., Sahani, Fundamentals of Computer Algorithms, Galgotia Publication Pvt.\n" +
+            "Ltd. \n" +
+            "3. Dave and Dave, Design and Analysis of Algorithms, 2nd Edition, Pearson. \n" +
+            "4. Goodrich, Tamassia. Algorithm Design. Wiley. \n")
+val modules54= arrayOf("Introduction to Automata: (mathematical model of digital devices, including real computer),\n" +
+        "State Transition Graph, Finite Automaton (FA) and its types, Deterministic Finite\n" +
+        "Automaton (DFA), Non-deterministic Finite Automaton (NDFA), Complement, Union,\n" +
+        "Intersection of FA’s , Conversion Strategy from NDFA to DFA , Minimization of FA,\n" +
+        "Finite Automaton with Output, Applications of FA. \n",
+    "Regular Expressions(RE): Introduction , R.E.’s and basic operations, Algebraic laws on\n" +
+            "Regular Expression, Finite and Infinite Languages, Equivalence of finite Automaton and\n" +
+            "regular expressions, Constructing NDFA from Regular Expression , Pumping Lemma for\n" +
+            "Regular Language, Closure properties of Regular Languages, Non-regular languages,\n" +
+            "Applications of Regular Expression. \n",
+    "Grammar:Introduction, Formal Definition of Grammar, The Chomsky Hierarchy of\n" +
+            "Grammar, Designing Regular grammar from DFA, Context Free Grammar, Closure\n" +
+            "properties of Context Free Languages, , CFG and Normal form: Chomsky Normal Form,\n" +
+            "Greibach Normal Form, Non-Context Free Language, Applications of CFGs. \n",
+    "Push Down Automation (PDA): Introduction, Definition of PDA, Types of Pushdown\n" +
+            "Automata (DPDA and NPDA), Converting CFG to PDA, Derivation (Parsing), Parsing\n" +
+            "Techniques, Ambiguous and Unambiguous Grammar, Demerits of Ambiguous Grammar. \n",
+    "Turing Machine(TM): Single Tape TM, Variations of TM, Halting Problem, Turing\n" +
+            "Machine and Languages, Enumerable Languages, Decidable, Recognizable and Undecidable\n" +
+            "languages, Solvable and Unsolvable problems, Post Correspondence Problems(PCP), Classes\n" +
+            "of Problems: P, NP, NP-C and NP-Hard. \n")
 val refbooks54= arrayOf(
-    "",
-    "")
+    "Hopcroft J.E., Motwani R. and Ullman J.D, Introduction to Automata Theory, Languages and\n" +
+            "Computations, Second Edition, Pearson Education, 2008. \n",
+    "Mishra K.L.P. andChandrasekaran N. , Theory of Computer Science: Automata,\n" +
+            "Languages and Computation, 3rd Edition, PHI.(R1)\n" +
+            "Martin John C., Introduction to Languages and the Theory of Computation, 3rd Edition,\n" +
+            "TataMcGraw Hill Publishing Company, New Delhi, 2007. (R2)\n" +
+            "Lewis Harry R. and Papadimitriou Christos H., Elements of the theory of Computation,\n" +
+            "2nd Edition, Prentice-Hall of India Pvt. Ltd. (R3)\n")
 val modules55= arrayOf("",
     "",
     "",
@@ -122,17 +164,15 @@ class maths_sem_5 : Fragment() {
             startActivity(intent)
         }
         button5.setOnClickListener {
-            val intent = Intent(activity, Syllabus::class.java)
-            intent.putExtra("modules", modules55)
-            intent.putExtra("books", refbooks55)
+            val intent = Intent(activity, maths_pe_1::class.java)
+
             startActivity(intent)
         }
-//        button6.setOnClickListener {
-//            val intent = Intent(activity, Syllabus::class.java)
-//            intent.putExtra("modules", modules56)
-//            intent.putExtra("books", refbooks56)
-//            startActivity(intent)
-//        }
+        button6.setOnClickListener {
+            val intent = Intent(activity, maths_pe_2::class.java)
+
+            startActivity(intent)
+        }
 
         return view
     }

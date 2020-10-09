@@ -71,21 +71,55 @@ val refbooks33= arrayOf(
             "5. R.S. Pathak: The wavelet Transform, Atlantis Press",
     "1. M.D. Raisinghania: Advanced Differential Equations, S. Chand & Co\n" +
             "2. Vasishtha & Gupta: Integral Transforms, Krishna Prakashan, Meerut")
-val modules34= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+val modules34= arrayOf("Basic Concepts\n" +
+        "Definition and basics of: Data Structure, ADT, Algorithms, Time and Space Complexity,\n" +
+        "Asymptotic Notations (O, θ, Ω), Time complexity computation of non-recursive algorithms\n" +
+        "(like Matrix addition, Selection sort – using step count), Array – basic operations, concept of\n" +
+        "multi-dimensional array, Polynomial operations using Array, Sparse Matrix.\n",
+    "Stack and Queue\n" +
+            "Stack ADT: basic operations, Queue ADT: basic operations, Circular Queue, Evaluation of\n" +
+            "Expressions, Another application or Mazing Problem.\n",
+    "Linked List\n" +
+            "Singly Linked List: concept, representation and operations, Circular Linked List, Polynomial\n" +
+            "and Sparse Matrix operations using LL, Doubly Linked List: basic concept.\n",
+    "Tree and Graph\n" +
+            "Basic concepts and terminologies, Binary Search Tree and Heap, Disjoint Set, Graph: concept\n" +
+            "and terminologies, Concept of BFS, DFS, Spanning Tree, Connected Components.\n",
+    "Searching and Sorting\n" +
+            "Sequential Search and Binary Search, Insertion Sort, Heap Sort, Radix Sort,External Sorting:\n" +
+            "k-way merging approach.\n")
 val refbooks34= arrayOf(
-    "",
-    "")
-val modules35= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+    "Sahni Horwitz,, Freed Anderson, Fundamentals of Data Structures in C, 2nd Edition (or\n" +
+            "latest) , University Press.\n",
+    "Thareja Reema, Data Structures Using C, 2nd Edition, Oxford University Press.\n" +
+            "Tanenbaum, Langsam, Augenstein, Data Structures using C, Pearson.\n")
+val modules35= arrayOf("Thermodynamics and Statistical Physics\n" +
+        "Zeroth law, first law, second law, entropy, heat transfer, steady state one-dimensional\n" +
+        "heat conduction.\n" +
+        "Elementary ideas, comparison of Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac\n" +
+        "statistics.\n",
+    "Quantum mechanics\n" +
+            "Planck's theory of black-body radiation, Compton effect, wave particle duality, De\n" +
+            "Broglie waves, Davisson and Germer's experiment, uncertainty principle, physical\n" +
+            "interpretation of wave function and its normalization, expectation value. Schrodinger\n" +
+            "equation in one dimension, solutions of time-independent Schrodinger equation for free\n" +
+            "particle, particle in an infinite square well, potential barrier and tunneling.\n",
+    "Lasers and applications\n" +
+            "Emission of light by atoms, spontaneous and stimulated emission, Einstein's A and B\n" +
+            "coefficients, laser: population-inversion, properties of laser radiation, Ruby & He-Ne\n" +
+            "lasers, applications of lasers, elementary ideas of holography and fiber optics.\n",
+    "Dielectrics properties\n" +
+            "Dielectric constant and polarization of dielectric materials. Types of polarization.\n" +
+            "Equation for internal field in liquids and solids (one dimensional). Ferro and Piezo\n" +
+            "electricity. Frequency dependence of dielectric constant. Important applications of\n" +
+            "dielectric materials.\n",
+    "Magnetic properties\n" +
+            "Classification of dia, para and ferro-magnetic materials. Hysterisis in ferromagnetic\n" +
+            "materials. Soft and hard magnetic materials, Applications.\n")
 val refbooks35= arrayOf(
-    "",
+    "1. Perspective of Modern Physics, A. Beiser (AB), Mc Graw Hill Int. Ed. 2002\n" +
+            "2. Physics for Engineers, M. R. Srinivasan, New Age International, 1996.\n" +
+            "3. Fundamentals of Thermodynamics, 6th Ed., Sonntag, Borgnakke & Van Wylen, John Wiley & Sons.\n",
     "")
 
 class maths_sem_3 : Fragment() {
