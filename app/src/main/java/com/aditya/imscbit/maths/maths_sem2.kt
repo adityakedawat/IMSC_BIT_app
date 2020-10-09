@@ -111,13 +111,40 @@ val refbooks24=arrayOf(
             "2. Peavy, H.S, Rowe, D.R, Tchobanoglous, G. Environmental Engineering, Mc-Graw - Hill International\n" +
             "3. G.M. Masters & Wendell Ela. 1991. Introduction to Environmental Engineering and Science, PHI\n" +
             "Publishers.")
-val modules25= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+val modules25= arrayOf("Electromagnetic Theory I:\n" +
+        "Gauss’s law and its applications, electric potential, relation between E and V, capacitance,\n" +
+        "energy density of an electric field, dielectrics, dielectric constant, dielectric polarization,\n" +
+        "three electric vectors E, D, P, boundary conditions for E and D at interface between two\n" +
+        "dielectrics\n",
+    "Electromagnetic Theory II:\n" +
+            "Ampere’s law, Biot-Savart law, inductance, energy density of a magnetic field, Gauss’s\n" +
+            "law in magnetism, three magnetic vectors H, B, M, boundary conditions for B and H,\n" +
+            "Faraday’s Law, Displacement current, Maxwell’s equations in free space, plane\n" +
+            "electromagnetic waves in free space, Poynting vector, pressure and momentum of EM\n" +
+            "waves\n",
+    "Nuclear physics\n" +
+            "Nuclear forces, binding energy, liquid drop model, fission, nuclear reactors, fusion,\n" +
+            "energy processes in stars, controlled thermonuclear reactions.\n",
+    "Physical Optics:\n" +
+            "Huygen’s construction for propagation of a wavefront, superposition principle, conditions\n" +
+            "for interference of light, coherence, Young’s double-slit experiment, Newton’s rings,\n" +
+            "Diffraction, Fraunhofer diffraction by a single slit, diffraction grating (qualitative),\n" +
+            "Polarization, polarizers, Malus’ Law, Brewster’s Law, Double Refraction\n",
+    "Special Theory of Relativity:\n" +
+            "Postulates, Galilean transformations, Lorentz transformation, length contraction, time\n" +
+            "dilation, velocity addition, mass change and Einstein's mass energy relation, Application\n" +
+            "os Relativity in GPS system.\n")
 val refbooks25= arrayOf(
-    "",
+    "Modules 1 and 2: E.M. theory\n" +
+            "1. Halliday, Resnick, Walker , Fundamentals of Physics, 6th Edition, John Wiley & Sons, 2004\n" +
+            "2. D. J. Griffith, Introduction to Electrodynamics, 3rd Edition.\n" +
+            "3. Mathew N.O. Sadiku, Elements of Electromagnetics, 4th Edition, Oxford University Press, ( 2012).\n" +
+            "Modules 4:\n" +
+            "1. Halliday, Resnick, Walker , Fundamentals of Physics, 6th Edition, John Wiley & Sons, 2004\n" +
+            "2. Ajoy Ghatak , Optics, 5th Edition, Tata McGraw Hill, 2012\n" +
+            "3. Jenkins and White: Fundamentals of Optics\n" +
+            "Module 3 and 5: Relativity\n" +
+            "1.\tArthur Beiser, Concept of Modern Physics, 6th Edition, Tata McGraw Hill, 2009\n",
     "")
 val modules26= arrayOf("Introduction to Programming: Introduction to components of a computer system (disks, memory, processor, where a program is stored and executed, operating system, compilers etc.) Problem Solving: Steps to solve logical and numerical problems. Representation of Algorithm: Flowchart/Pseudo code with adityas. From algorithms to programs; source code, variables (with data types) variables and memory locations, Syntax and Logical Errors in compilation, object and executable code.",
     "Arithmetic expressions and precedence, Conditional Branching and Loops, Writing and evaluation of conditionals, Iterations, Loops.",

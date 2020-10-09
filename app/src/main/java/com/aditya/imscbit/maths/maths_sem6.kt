@@ -31,38 +31,75 @@ val refbooks62= arrayOf(
             "2. Sastry S.S.: Introductory Methods of Numerical Analysis, PHI\n",
     "1. Chapra S.C. and Canale R.P.: Numerical Methods for Engineers, McGraw Hill\n" +
             "2. Hamming R.W.: Numerical Methods for Scientists and Engineers, Dover Publications")
-val modules63= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+val modules63= arrayOf("Database Design and Entity - Relational Model\n" +
+        "Purpose of Database System; View of Data, Database Languages, Transaction Management,\n" +
+        "Database architecture, Database Users and Administrator, Types of database System, Overview\n" +
+        "of design process, E-R model, Constraints, E–R Diagram, E-R Diagram issues, Weak Entity\n" +
+        "Sets, Extended E – R Features, Reduction to E–R Schemas. \n",
+    "Relational Model\n" +
+            "Structure of Relational Database, Codd's Rules, Fundamental Relational Algebra Operations,\n" +
+            "Additional Relational Algebra Operations, Extended Relational Algebra Operations, Data\n" +
+            "definition, Basic structure of SQL queries, Set Operations, Aggregate Functions, Null Values,\n" +
+            "Nested Sub Queries, complex queries, views, modification of database, Joined relations, SQL\n" +
+            "data types & schemas, Integrity constraints, authorization, Embedded SQL, Triggers.\n",
+    "Relational Database Design\n" +
+            "Functional dependency, Decomposition, Normalization, First normal form, Second normal form,\n" +
+            "Third normal form, BCNF, Multivalued dependencies and Fourth normal form, Join\n" +
+            "dependencies and Fifth normal form, DKNF. \n",
+    "Indexing & Hashing\n" +
+            "Ordered Indices, B+ Tree index files, B-Tree index files, Multiple key access Static hashing,\n" +
+            "Dynamic Hashing, Comparison of ordered indexing and hashing, Index definition in SQL.\n" +
+            "Query Processing\n" +
+            "Measure of Query Cost, Selection Operation, Evaluation of Expressions. \n",
+    "Transaction & Concurrency Control\n" +
+            "Transaction Concepts & ACID Properties, Transaction States, Implementation of Atomicity &\n" +
+            "Durability, Concurrent Executions, Serializability& Its Testing, Recoverability, Lock-Based\n" +
+            "protocols, Validation based protocol, Multiple Granularity, Multiversion Schemes, Deadlock\n" +
+            "Handling. \n")
 val refbooks63= arrayOf(
-    "",
-    "")
-val modules64= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+    "Silberschatz A. et.al, Database System Concepts, 6th Edition, Tata Mc-Graw Hill, New\n" +
+            "Delhi, 2011. \n",
+    "Elmasri R., Fundamentals of Database Systems, 7thEdition, Pearson Education, New\n" +
+            "Delhi, 2016. (R1)\n" +
+            "Ullman Jeffrey D et.al., A First course in Database Systems, 3rd Edition, Pearson\n" +
+            "Education, New Delhi- 2014.(R2)\n")
+val modules64= arrayOf("Operating system Overview\n" +
+        "Operating system Objective and Functions, Evolution of Operating System, Major Advances in\n" +
+        "OS Components, Characteristics of Modern Operating Systems\n" +
+        "Process Description and Control\n" +
+        "Process Concept, Process States, Process Description, Process Control, Threads, Types of\n" +
+        "Threads, Multicore and Multithreading\n",
+    "Scheduling\n" +
+            "Type of scheduling, Uniprocessor Scheduling, Multiprocessor Scheduling\n",
+    "Concurrency\n" +
+            " Mutual Exclusion and Synchronization\n" +
+            "Principle of Concurrency, Mutual Exclusion, Hardware Support, Semaphores, Monitors,\n" +
+            "Message Passing, Readers/Writers Problem\n" +
+            "Deadlock and Starvation\n" +
+            "Principle of Deadlock, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection, Dining\n" +
+            "Philosopher Problem\n",
+    "Memory Management\n" +
+            "Memory Management Requirements, Memory Partitioning, Paging, Segmentation\n" +
+            "Virtual Memory\n" +
+            "Hardware and Control Structures, Operating System Policies for Virtual Memory\n",
+    "I/O Management and Disk Scheduling\n" +
+            "I/O device, Organization of the I/O Function, Operating System Design Issues, I/O Buffering,\n" +
+            "Disk Scheduling, RAID, Disk Cache\n" +
+            "File Management\n" +
+            "Overview, File Organization and Access, File Directories, File Sharing, Record Blocking, File\n" +
+            "Allocation and Free Space Management\n")
 val refbooks64= arrayOf(
-    "",
-    "")
-val modules65= arrayOf("",
-    "",
-    "",
-    "",
-    "")
-val refbooks65= arrayOf(
-    "",
-    "")
-val modules66= arrayOf("",
-    "",
-    "",
-    "",
-    "")
-val refbooks66= arrayOf(
-    "",
-    "")
+    "1. StallingsW., Operating systems - Internals and Design Principles, , 8th Edition, Pearson,\n" +
+            "2014.\n",
+    "1. SilberchatzAbraham, Galvin Peter B.,Gagne Greg, Operating System Principles, 9th\n" +
+            "Edition, Wiley Student Edition, 2013.\n" +
+            "2. Tanenbaum Andrew S., Modern Operating Systems, 4th Edition, Pearson, 2014.\n" +
+            "3. Dhamdhere D. M. ,Operating Systems A concept - based Approach, 3rd Edition,\n" +
+            "McGrawHill Education, 2017.\n" +
+            "4. Stuart B. L., Principles of Operating Systems, 1st Edition, 2008, Cengage learning, India\n" +
+            "Edition.\n" +
+            "5. Godbole A. S., Operating Systems, 3rd Edition, McGrawHill Education, 2017.\n")
+
 
 class maths_sem_6 : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -109,17 +146,15 @@ class maths_sem_6 : Fragment() {
             startActivity(intent)
         }
         button5.setOnClickListener {
-            val intent = Intent(activity, Syllabus::class.java)
-            intent.putExtra("modules", modules65)
-            intent.putExtra("books", refbooks65)
+            val intent = Intent(activity, maths_pe_3::class.java)
+
             startActivity(intent)
         }
-//        button6.setOnClickListener {
-//            val intent = Intent(activity, Syllabus::class.java)
-//            intent.putExtra("modules", modules66)
-//            intent.putExtra("books", refbooks66)
-//            startActivity(intent)
-//        }
+        button6.setOnClickListener {
+            val intent = Intent(activity, maths_pe_4::class.java)
+
+            startActivity(intent)
+        }
 
         return view
     }

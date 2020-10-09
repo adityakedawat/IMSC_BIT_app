@@ -89,14 +89,34 @@ val refbooks44= arrayOf(
             "3. Engel, T. & Reid, P. Physical Chemistry 3rd Ed. Pearson (2013).\n" +
             "4. McMurry, J.E. Fundamentals of Organic Chemistry, 7th Ed. Cengage Learning India Edition,\n" +
             "2013. \n")
-val modules45= arrayOf("",
-    "",
-    "",
-    "",
-    "")
+val modules45= arrayOf("Introduction to Classes, Objects and Java\n" +
+        "Introduction to Object Technology, Java, Understanding the Java development environment,\n" +
+        "Programming in Java, Memory concepts, Doing basic Arithmetic, Comparing entities, Classes,\n" +
+        "Objects, Methods, Strings, Primitive vs reference types.\n",
+    "Control Statements, Methods and Arrays\n" +
+            "Basic selection statements, Iterative constructs, Relative and Logical operators, break, continue,\n" +
+            "Methods, static methods, parameter passing, argument promotion and casting, scopes, method\n" +
+            "overloading. Arrays and ArrayList in Java, Enhanced for statement, Passing arrays to methods,\n" +
+            "Multidimensional arrays, Using command line arguments.\n",
+    "Object Oriented Concepts: Polymorphism & Inheritance\n" +
+            "Controlling access to class members, the use of this keyword, getters and setters, Composition,\n" +
+            "enum, the use of static and final, Garbage collection. Superclass and subclass, protected\n" +
+            "members, constructors in subclass, the Object class, Introduction to polymorphism, Abstract\n" +
+            "classes and methods, Assignment between subclass and superclass variables, Creating and using\n" +
+            "interfaces.\n",
+    "Exception Handling & GUI Design\n" +
+            "When to use exception handling, Java exception hierarchy, finally block, Stack unwinding,\n" +
+            "Chained exceptions, Declaring new exception types, Assertions, try with resources. Simple I/O\n" +
+            "with GUI, Basic GUI Components, GUI Event handling, Adapter classes, Layout managers,\n" +
+            "Using panels.\n",
+    "Strings, characters & Files\n" +
+            "Working with the String and StringBuilder class, Character class, Tokenizing strings, Regular\n" +
+            "Expressions, Files and Streams, Using NIO classes, Sequential file handling, Object serialization,\n" +
+            "JFileChooser, Introduction to threading, Introduction to Generics and lambda expressions.\n")
 val refbooks45= arrayOf(
-    "",
-    "")
+    "Deitel P., Deitel H., Java How to Program, 10th Edition, Pearson Publications, 2016.",
+    "Wu C. T., Object Oriented Programming in Java, 5th Edition, McGrawHill Publications,\n" +
+            "2010.\n")
 
 class maths_sem_4 : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {

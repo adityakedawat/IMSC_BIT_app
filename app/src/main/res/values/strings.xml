@@ -100,6 +100,24 @@
     <string name="numerical_techniques">Numerical Techniques</string>
     <string name="database_management_system">Database Management System</string>
     <string name="operating_systems">Operating Systems</string>
+    <string name="erp">ERP</string>
+    <string name="training_and_placement">Training and Placement</string>
+    <string name="tensor_analysis">Tensor Analysis</string>
+    <string name="graph_theory">Graph Theory</string>
+    <string name="special_funtions">Special Funtions</string>
+    <string name="computational_linear_algebra">Computational Linear Algebra</string>
+    <string name="difference_equations">Difference Equations</string>
+    <string name="introduction_to_distributed_system">Introduction to Distributed System</string>
+    <string name="soft_computing">Soft Computing</string>
+    <string name="combinatorics">Combinatorics</string>
+    <string name="fuzzy_set_theory_and_its_applications">Fuzzy Set Theory and its Applications</string>
+    <string name="financial_maths">Financial Maths</string>
+    <string name="statistics_quality_control_and_reliability">Statistics Quality Control and Reliability</string>
+    <string name="wavelet_transform">Wavelet Transform</string>
+    <string name="artificial_neural_network">Artificial Neural Network</string>
+    <string name="cloud_computing">Cloud Computing</string>
+    <string name="database_modelling">Database Modelling</string>
+    <string name="system_programming">System Programming</string>
 
     <string-array name="sems">
         <item>1</item>

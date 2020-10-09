@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/maths_pe2_sub1"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/computational_linear_algebra" />
+    <Button
+        android:id="@+id/maths_pe2_sub2"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/difference_equations" />
+    <Button
+        android:id="@+id/maths_pe2_sub3"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/introduction_to_distributed_system" />
+    <Button
+        android:id="@+id/maths_pe2_sub4"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/soft_computing" />
+
+</LinearLayout>

@@ -10,7 +10,11 @@
         android:roundIcon="@mipmap/imsc_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".maths.maths_gpa_calculation"></activity>
+        <activity android:name=".maths.maths_pe_4"></activity>
+        <activity android:name=".maths.maths_pe_3" />
+        <activity android:name=".maths.maths_pe_2" />
+        <activity android:name=".maths.maths_pe_1" />
+        <activity android:name=".maths.maths_gpa_calculation" />
         <activity android:name=".maths.Maths_subjects" />
         <activity android:name=".Aboutus" />
         <activity android:name=".attendance.Attendance_Calculator" />

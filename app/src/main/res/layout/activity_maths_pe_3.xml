@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/maths_pe3_sub1"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/combinatorics" />
+    <Button
+        android:id="@+id/maths_pe3_sub2"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/fuzzy_set_theory_and_its_applications" />
+    <Button
+        android:id="@+id/maths_pe3_sub3"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/financial_maths" />
+    <Button
+        android:id="@+id/maths_pe3_sub4"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_border"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="@string/statistics_quality_control_and_reliability" />
+
+</LinearLayout>
